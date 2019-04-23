@@ -1,0 +1,79 @@
+.wrap {
+    background: rgb(162, 216, 136);
+    width: 900px;
+	margin:40px auto;
+	text-align: center;
+	height:100px;
+}
+
+/*pembagian header welcome*/
+.wrap .header{
+background: rgb(138, 212, 138);
+/*height: 20px;*/
+*font-family: courier;
+text-align: center;
+}
+
+
+/*footer*/
+.wrap .menu ul{
+	padding: 10px;
+	margin: 0;
+	background: rgb(155, 155, 48);
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+	background: rgb(138, 212, 138);
+	border: #ccc 5px solid;
+}
+
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	/*font-family: courier;*/
+}
+
+.container{
+	padding:10px 10px;
+	font-family: courier;
+
+}
+/*bagian sidebar gambar admin*/
+.wrap .badan .sidebar{
+	background: rgb(217, 250, 180);
+	float: left;	
+	width: 23%;
+	height: 50%;
+	padding:10px 10px;
+
+}
+
+.wrap .badan{
+	background: rgb(217, 250, 180);
+	float: center;	
+}
+
+/*akhir sidebar*/
+
+.wrap .footer{
+	width: 100%;
+	padding: 10px;
+	background: rgb(216, 216, 87);
+}
+
+tr {
+	border-bottom: 0;
+	float: center;
+	width: 25%;
+	height: 70%;
+	padding:10px 10px;
+	
+}
+.row{
+	padding:10px 10px;
+	font-family: courier;
+}
+
+li {
+	text-align: left;
+}
